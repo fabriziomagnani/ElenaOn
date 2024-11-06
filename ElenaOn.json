@@ -1,0 +1,1503 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "en"
+    ],
+    "baseIris": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.semanticweb.org/ontologia_elena"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "wot": "http://xmlns.com/wot/0.1/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "": "http://www.semanticweb.org/ontologia_elena#",
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "vs": "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "title": {
+      "en": "New ontology"
+    },
+    "iri": "http://visualdataweb.org/newOntology/",
+    "description": {
+      "en": "New ontology description"
+    },
+    "other": {
+      "title": [
+        {
+          "identifier": "title",
+          "language": "en",
+          "value": "New ontology",
+          "type": "label"
+        }
+      ]
+    }
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.43",
+      "translation": [
+        467.89,
+        -79.33
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "5",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "7",
+      "type": "owl:Class"
+    },
+    {
+      "id": "16",
+      "type": "owl:Class"
+    },
+    {
+      "id": "10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "12",
+      "type": "owl:Class"
+    },
+    {
+      "id": "2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class12",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class13",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class14",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class16",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class18",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class21",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class22",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class23",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class24",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class25",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class26",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class27",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class28",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class29",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class30",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class31",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class32",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class33",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class34",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class35",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class36",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class37",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class38",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class39",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class40",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class41",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class42",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class43",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "3",
+      "iri": "http://www.semanticweb.org/ontologia_elena#Elena_img",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": "https://raw.githubusercontent.com/fabriziomagnani/ElenaOn/4d2ba8f974cdc08166ceef04bd85be6d1304c4d1/Elena_img.jpg",
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        595.22,
+        1202.17
+      ]
+    },
+    {
+      "id": "4",
+      "iri": "http://www.semanticweb.org/ontologia_elena#cis:Site",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": "San Michele a Ripa",
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        -475.96,
+        850.25
+      ]
+    },
+    {
+      "id": "5",
+      "iri": "http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": {
+        "IRI-based": "FriendsAndColleagues",
+        "en": "FriendsAndColleagues"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        680.83,
+        159.8
+      ]
+    },
+    {
+      "id": "1",
+      "iri": "http://www.semanticweb.org/ontologia_elena#TimeIndexedTypedLocation",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": {
+        "IRI-based": "TimeIndexedTypedLocation",
+        "en": "a-loc:TimeIndexedTypedLocation"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        496.85,
+        1317.78
+      ]
+    },
+    {
+      "id": "7",
+      "iri": "http://www.semanticweb.org/ontologia_elena#Elena",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": {
+        "IRI-based": "Elena",
+        "en": "arco:Demoethno AntropologicalHeritage"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        350.77,
+        889.39
+      ]
+    },
+    {
+      "id": "16",
+      "iri": "http://www.semanticweb.org/ontologia_elena#CulturalInstituteOrSite2",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": "ICCD",
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        -351.12,
+        1310
+      ]
+    },
+    {
+      "id": "10",
+      "iri": "http://www.semanticweb.org/ontologia_elena#TimeIndexedTypedLocation2",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": {
+        "IRI-based": "TimeIndexedTypedLocation2",
+        "en": "TimeIndexedTypedLocation2"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        -130.47,
+        1016.48
+      ]
+    },
+    {
+      "id": "17",
+      "iri": "http://www.semanticweb.org/ontologia_elena#CulturalInstituteOrSite3",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": "MAECI",
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        189.34,
+        1658.42
+      ]
+    },
+    {
+      "id": "12",
+      "iri": "http://www.semanticweb.org/ontologia_elena#TimeIndexedTypedLocation3",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": {
+        "IRI-based": "TimeIndexedTypedLocation3",
+        "en": "a-loc:TimeIndexedTypedLocation3"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        216.1,
+        1296.47
+      ]
+    },
+    {
+      "id": "2",
+      "iri": "http://www.semanticweb.org/ontologia_elena#CulturalInstituteOrSite",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": "Ferrovie dello Stato",
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        745.4,
+        1596.6
+      ]
+    },
+    {
+      "id": "15",
+      "iri": "http://www.semanticweb.org/ontologia_elena#TI:TimeInterval",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": "2019-2024",
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        -502.47,
+        1070.91
+      ]
+    },
+    {
+      "id": "Class12",
+      "iri": "http://visualdataweb.org/newOntology/Fabrizio",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Fabrizio",
+      "pos": [
+        235.6,
+        342.57
+      ]
+    },
+    {
+      "id": "Class13",
+      "iri": "http://visualdataweb.org/newOntology/Rachele",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Rachele",
+      "pos": [
+        201.78,
+        252.28
+      ]
+    },
+    {
+      "id": "Class14",
+      "iri": "http://visualdataweb.org/newOntology/Caterina",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Caterina",
+      "pos": [
+        182.01,
+        160.91
+      ]
+    },
+    {
+      "id": "Class15",
+      "iri": "http://visualdataweb.org/newOntology/Cristiana",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Cristiana",
+      "pos": [
+        191.83,
+        70.38
+      ]
+    },
+    {
+      "id": "Class16",
+      "iri": "http://visualdataweb.org/newOntology/Cristina",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Cristina",
+      "pos": [
+        211.69,
+        -16.18
+      ]
+    },
+    {
+      "id": "Class17",
+      "iri": "http://visualdataweb.org/newOntology/Antonella",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Antonella",
+      "pos": [
+        293.48,
+        428.3
+      ]
+    },
+    {
+      "id": "Class18",
+      "iri": "http://visualdataweb.org/newOntology/Fiorenza",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Fiorenza",
+      "pos": [
+        252.4,
+        -96.08
+      ]
+    },
+    {
+      "id": "Class19",
+      "iri": "http://visualdataweb.org/newOntology/Fabio",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Fabio",
+      "pos": [
+        373.98,
+        511.83
+      ]
+    },
+    {
+      "id": "Class20",
+      "iri": "http://visualdataweb.org/newOntology/Ilenia",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Ilenia",
+      "pos": [
+        299.27,
+        -171.88
+      ]
+    },
+    {
+      "id": "Class21",
+      "iri": "http://visualdataweb.org/newOntology/Milena",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Milena",
+      "pos": [
+        371.8,
+        -225.85
+      ]
+    },
+    {
+      "id": "Class22",
+      "iri": "http://visualdataweb.org/newOntology/Nadia",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Nadia",
+      "pos": [
+        442.76,
+        -277.47
+      ]
+    },
+    {
+      "id": "Class23",
+      "iri": "http://visualdataweb.org/newOntology/Letizia",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Letizia",
+      "pos": [
+        548.87,
+        610.97
+      ]
+    },
+    {
+      "id": "Class24",
+      "iri": "http://visualdataweb.org/newOntology/Fabiana",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Fabiana",
+      "pos": [
+        668.54,
+        626.11
+      ]
+    },
+    {
+      "id": "Class25",
+      "iri": "http://visualdataweb.org/newOntology/Fabiola",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Fabiola",
+      "pos": [
+        527.05,
+        -311
+      ]
+    },
+    {
+      "id": "Class26",
+      "iri": "http://visualdataweb.org/newOntology/Laura",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Laura",
+      "pos": [
+        614.47,
+        -330.54
+      ]
+    },
+    {
+      "id": "Class27",
+      "iri": "http://visualdataweb.org/newOntology/Isabella",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Isabella",
+      "pos": [
+        771.94,
+        626.24
+      ]
+    },
+    {
+      "id": "Class28",
+      "iri": "http://visualdataweb.org/newOntology/Attilio",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Attilio",
+      "pos": [
+        706.15,
+        -333.48
+      ]
+    },
+    {
+      "id": "Class29",
+      "iri": "http://visualdataweb.org/newOntology/Iulia",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Iulia",
+      "pos": [
+        869.02,
+        608.88
+      ]
+    },
+    {
+      "id": "Class30",
+      "iri": "http://visualdataweb.org/newOntology/Francesco",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Francesco",
+      "pos": [
+        796.4,
+        -318.88
+      ]
+    },
+    {
+      "id": "Class31",
+      "iri": "http://visualdataweb.org/newOntology/Giovanni",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Giovanni",
+      "pos": [
+        950.73,
+        570.93
+      ]
+    },
+    {
+      "id": "Class32",
+      "iri": "http://visualdataweb.org/newOntology/Rodolfo",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Rodolfo",
+      "pos": [
+        884.54,
+        -286.39
+      ]
+    },
+    {
+      "id": "Class33",
+      "iri": "http://visualdataweb.org/newOntology/Simona",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Simona",
+      "pos": [
+        1022.54,
+        521.54
+      ]
+    },
+    {
+      "id": "Class34",
+      "iri": "http://visualdataweb.org/newOntology/Carola",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Carola",
+      "pos": [
+        974.51,
+        -243.5
+      ]
+    },
+    {
+      "id": "Class35",
+      "iri": "http://visualdataweb.org/newOntology/Silvia",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Silvia",
+      "pos": [
+        1074.57,
+        456.72
+      ]
+    },
+    {
+      "id": "Class36",
+      "iri": "http://visualdataweb.org/newOntology/Daniela",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Daniela",
+      "pos": [
+        1040.1,
+        -177.66
+      ]
+    },
+    {
+      "id": "Class37",
+      "iri": "http://visualdataweb.org/newOntology/Gabriella",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Gabriella",
+      "pos": [
+        1095.69,
+        -106.65
+      ]
+    },
+    {
+      "id": "Class38",
+      "iri": "http://visualdataweb.org/newOntology/Gaia",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Gaia",
+      "pos": [
+        1128.05,
+        391.96
+      ]
+    },
+    {
+      "id": "Class39",
+      "iri": "http://visualdataweb.org/newOntology/Ada",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Ada",
+      "pos": [
+        1140.08,
+        -30.94
+      ]
+    },
+    {
+      "id": "Class40",
+      "iri": "http://visualdataweb.org/newOntology/Coco",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Coco",
+      "pos": [
+        1155.69,
+        311.44
+      ]
+    },
+    {
+      "id": "Class41",
+      "iri": "http://visualdataweb.org/newOntology/Mauro",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Mauro",
+      "pos": [
+        1173.39,
+        226.77
+      ]
+    },
+    {
+      "id": "Class42",
+      "iri": "http://visualdataweb.org/newOntology/Carlo",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Carlo",
+      "pos": [
+        1167.15,
+        52.8
+      ]
+    },
+    {
+      "id": "Class43",
+      "iri": "http://visualdataweb.org/newOntology/Chiara",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Chiara",
+      "pos": [
+        1175.35,
+        142.24
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "0",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "6",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "8",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "9",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "11",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "13",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "14",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "18",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "19",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "20",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty11",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty12",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty13",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty14",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty15",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty16",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty18",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty19",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty20",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty21",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty22",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty24",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty25",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty26",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty27",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty29",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty30",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty31",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty32",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty33",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty34",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty35",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty36",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty37",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty38",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty39",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty40",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty41",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty42",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty43",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty44",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty45",
+      "type": "rdfs:subClassOf"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "0",
+      "iri": "http://www.semanticweb.org/ontologia_elena#a-loc:hasCulturalInstituteOrSite",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": {
+        "IRI-based": "a-loc:hasCulturalInstituteOrSite",
+        "en": "a-loc:hasCulturalInstituteOrSite"
+      },
+      "attributes": [
+        "object",
+        "external"
+      ],
+      "domain": "1",
+      "range": "2",
+      "pos": [
+        621.12,
+        1457.19
+      ]
+    },
+    {
+      "id": "6",
+      "iri": "http://www.semanticweb.org/ontologia_elena#a-loc:hasTimeIndexedTypedLocation",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": {
+        "IRI-based": "a-loc:hasTimeIndexedTypedLocation",
+        "en": "a-loc:hasTimeIndexedTypedLocation"
+      },
+      "attributes": [
+        "object",
+        "external"
+      ],
+      "domain": "7",
+      "range": "1",
+      "pos": [
+        423.81,
+        1103.59
+      ]
+    },
+    {
+      "id": "8",
+      "iri": "http://www.semanticweb.org/ontologia_elena#Foaf",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": {
+        "IRI-based": "Foaf",
+        "en": "Foaf"
+      },
+      "attributes": [
+        "object",
+        "external"
+      ],
+      "domain": "5",
+      "range": "7",
+      "pos": [
+        515.8,
+        524.6
+      ]
+    },
+    {
+      "id": "9",
+      "iri": "http://www.semanticweb.org/ontologia_elena#hasTimeIndexedTypedLocation2",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": {
+        "IRI-based": "hasTimeIndexedTypedLocation2",
+        "en": "a-loc:hasTimeIndexedTypedLocation2"
+      },
+      "attributes": [
+        "object",
+        "external"
+      ],
+      "domain": "7",
+      "range": "10",
+      "pos": [
+        110.15,
+        952.94
+      ]
+    },
+    {
+      "id": "11",
+      "iri": "http://www.semanticweb.org/ontologia_elena#objectProperty5",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": {
+        "IRI-based": "objectProperty5",
+        "en": "newObjectProperty"
+      },
+      "attributes": [
+        "object",
+        "external"
+      ],
+      "domain": "7",
+      "range": "12",
+      "pos": [
+        283.43,
+        1092.93
+      ]
+    },
+    {
+      "id": "13",
+      "iri": "http://www.semanticweb.org/ontologia_elena#a-loc:atSite",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": {
+        "IRI-based": "a-loc:atSite",
+        "en": "a-loc:atSite"
+      },
+      "attributes": [
+        "object",
+        "external"
+      ],
+      "domain": "10",
+      "range": "4",
+      "pos": [
+        -303.21,
+        933.36
+      ]
+    },
+    {
+      "id": "14",
+      "iri": "http://www.semanticweb.org/ontologia_elena#hasTimeInterval",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": {
+        "IRI-based": "hasTimeInterval",
+        "en": "hasTimeInterval"
+      },
+      "attributes": [
+        "object",
+        "external"
+      ],
+      "domain": "10",
+      "range": "15",
+      "pos": [
+        -316.47,
+        1043.7
+      ]
+    },
+    {
+      "id": "18",
+      "iri": "http://www.semanticweb.org/ontologia_elena#hasCulturalInstituteOrSite2",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": {
+        "IRI-based": "hasCulturalInstituteOrSite2",
+        "en": "a-loc:hasCulturalInstituteOrSite2"
+      },
+      "attributes": [
+        "object",
+        "external"
+      ],
+      "domain": "10",
+      "range": "16",
+      "pos": [
+        -240.8,
+        1163.24
+      ]
+    },
+    {
+      "id": "19",
+      "iri": "http://www.semanticweb.org/ontologia_elena#hasCulturalInstituteOrSite3",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": {
+        "IRI-based": "hasCulturalInstituteOrSite3",
+        "en": "a-loc:hasCulturalInstituteOrSite3"
+      },
+      "attributes": [
+        "object",
+        "external"
+      ],
+      "domain": "12",
+      "range": "17",
+      "pos": [
+        202.72,
+        1477.45
+      ]
+    },
+    {
+      "id": "20",
+      "iri": "http://www.semanticweb.org/ontologia_elena#hasAttachedDocumentation",
+      "baseIri": "http://www.semanticweb.org/ontologia_elena",
+      "label": {
+        "IRI-based": "hasAttachedDocumentation",
+        "en": "hasAttachedDocumentation"
+      },
+      "attributes": [
+        "object",
+        "external"
+      ],
+      "domain": "7",
+      "range": "3",
+      "pos": [
+        473,
+        1045.78
+      ]
+    },
+    {
+      "id": "objectProperty11",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class12",
+      "range": "5",
+      "pos": [
+        458.22,
+        251.18
+      ]
+    },
+    {
+      "id": "objectProperty12",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class13",
+      "range": "5",
+      "pos": [
+        441.31,
+        206.04
+      ]
+    },
+    {
+      "id": "objectProperty13",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class14",
+      "range": "5",
+      "pos": [
+        431.42,
+        160.36
+      ]
+    },
+    {
+      "id": "objectProperty14",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class15",
+      "range": "5",
+      "pos": [
+        436.33,
+        115.09
+      ]
+    },
+    {
+      "id": "objectProperty15",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class16",
+      "range": "5",
+      "pos": [
+        446.26,
+        71.81
+      ]
+    },
+    {
+      "id": "objectProperty16",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class17",
+      "range": "5",
+      "pos": [
+        487.16,
+        294.05
+      ]
+    },
+    {
+      "id": "objectProperty18",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class18",
+      "range": "5",
+      "pos": [
+        466.62,
+        31.86
+      ]
+    },
+    {
+      "id": "objectProperty19",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class19",
+      "range": "5",
+      "pos": [
+        527.41,
+        335.82
+      ]
+    },
+    {
+      "id": "objectProperty20",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class20",
+      "range": "5",
+      "pos": [
+        490.05,
+        -6.04
+      ]
+    },
+    {
+      "id": "objectProperty21",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class21",
+      "range": "5",
+      "pos": [
+        526.32,
+        -33.02
+      ]
+    },
+    {
+      "id": "objectProperty22",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class22",
+      "range": "5",
+      "pos": [
+        561.8,
+        -58.83
+      ]
+    },
+    {
+      "id": "objectProperty24",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class23",
+      "range": "5",
+      "pos": [
+        614.85,
+        385.39
+      ]
+    },
+    {
+      "id": "objectProperty25",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class24",
+      "range": "5",
+      "pos": [
+        674.69,
+        392.96
+      ]
+    },
+    {
+      "id": "objectProperty26",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class25",
+      "range": "5",
+      "pos": [
+        603.94,
+        -75.6
+      ]
+    },
+    {
+      "id": "objectProperty27",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class26",
+      "range": "5",
+      "pos": [
+        647.65,
+        -85.37
+      ]
+    },
+    {
+      "id": "objectProperty29",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class27",
+      "range": "5",
+      "pos": [
+        726.39,
+        393.02
+      ]
+    },
+    {
+      "id": "objectProperty30",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class28",
+      "range": "5",
+      "pos": [
+        693.49,
+        -86.84
+      ]
+    },
+    {
+      "id": "objectProperty31",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class29",
+      "range": "5",
+      "pos": [
+        774.93,
+        384.34
+      ]
+    },
+    {
+      "id": "objectProperty32",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class30",
+      "range": "5",
+      "pos": [
+        738.62,
+        -79.54
+      ]
+    },
+    {
+      "id": "objectProperty33",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class31",
+      "range": "5",
+      "pos": [
+        815.78,
+        365.37
+      ]
+    },
+    {
+      "id": "objectProperty34",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class32",
+      "range": "5",
+      "pos": [
+        782.69,
+        -63.29
+      ]
+    },
+    {
+      "id": "objectProperty35",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class33",
+      "range": "5",
+      "pos": [
+        851.69,
+        340.67
+      ]
+    },
+    {
+      "id": "objectProperty36",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class34",
+      "range": "5",
+      "pos": [
+        827.67,
+        -41.85
+      ]
+    },
+    {
+      "id": "objectProperty37",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class35",
+      "range": "5",
+      "pos": [
+        877.7,
+        308.26
+      ]
+    },
+    {
+      "id": "objectProperty38",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class36",
+      "range": "5",
+      "pos": [
+        860.47,
+        -8.93
+      ]
+    },
+    {
+      "id": "objectProperty39",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class37",
+      "range": "5",
+      "pos": [
+        888.26,
+        26.57
+      ]
+    },
+    {
+      "id": "objectProperty40",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class38",
+      "range": "5",
+      "pos": [
+        904.44,
+        275.88
+      ]
+    },
+    {
+      "id": "objectProperty41",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class39",
+      "range": "5",
+      "pos": [
+        910.46,
+        64.43
+      ]
+    },
+    {
+      "id": "objectProperty42",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class40",
+      "range": "5",
+      "pos": [
+        918.26,
+        235.62
+      ]
+    },
+    {
+      "id": "objectProperty43",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class41",
+      "range": "5",
+      "pos": [
+        927.11,
+        193.28
+      ]
+    },
+    {
+      "id": "objectProperty44",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class42",
+      "range": "5",
+      "pos": [
+        923.99,
+        106.3
+      ]
+    },
+    {
+      "id": "objectProperty45",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class43",
+      "range": "5",
+      "pos": [
+        928.09,
+        151.02
+      ]
+    }
+  ]
+}
