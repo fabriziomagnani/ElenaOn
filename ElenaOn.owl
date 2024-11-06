@@ -1,0 +1,535 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologia_elena#"
+     xml:base="http://www.semanticweb.org/ontologia_elena"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:wot="http://xmlns.com/wot/0.1/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://visualdataweb.org/newOntology/">
+        <dc:description xml:lang="en">New ontology description</dc:description>
+        <dc:title xml:lang="en">New ontology</dc:title>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Foaf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologia_elena#Foaf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologia_elena#Elena"/>
+        <rdfs:label xml:lang="en">Foaf</rdfs:label>
+        <rdfs:label xml:lang="iri-based">Foaf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#hasAttachedDocumentation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologia_elena#hasAttachedDocumentation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologia_elena#Elena"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologia_elena#Elena_img"/>
+        <rdfs:label xml:lang="en">hasAttachedDocumentation</rdfs:label>
+        <rdfs:label xml:lang="iri-based">hasAttachedDocumentation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#hasCulturalInstituteOrSite2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologia_elena#hasCulturalInstituteOrSite2">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologia_elena#TimeIndexedTypedLocation2"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologia_elena#CulturalInstituteOrSite2"/>
+        <rdfs:label xml:lang="en">a-loc:hasCulturalInstituteOrSite2</rdfs:label>
+        <rdfs:label xml:lang="iri-based">hasCulturalInstituteOrSite2</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#hasCulturalInstituteOrSite3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologia_elena#hasCulturalInstituteOrSite3">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologia_elena#TimeIndexedTypedLocation3"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologia_elena#CulturalInstituteOrSite3"/>
+        <rdfs:label xml:lang="en">a-loc:hasCulturalInstituteOrSite3</rdfs:label>
+        <rdfs:label xml:lang="iri-based">hasCulturalInstituteOrSite3</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#hasTimeIndexedTypedLocation2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologia_elena#hasTimeIndexedTypedLocation2">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologia_elena#Elena"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologia_elena#TimeIndexedTypedLocation2"/>
+        <rdfs:label xml:lang="en">a-loc:hasTimeIndexedTypedLocation2</rdfs:label>
+        <rdfs:label xml:lang="iri-based">hasTimeIndexedTypedLocation2</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#hasTimeInterval -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologia_elena#hasTimeInterval">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologia_elena#TimeIndexedTypedLocation2"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologia_elena#TI:TimeInterval"/>
+        <rdfs:label xml:lang="en">hasTimeInterval</rdfs:label>
+        <rdfs:label xml:lang="iri-based">hasTimeInterval</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#objectProperty5 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologia_elena#objectProperty5">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologia_elena#Elena"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologia_elena#TimeIndexedTypedLocation3"/>
+        <rdfs:label xml:lang="en">newObjectProperty</rdfs:label>
+        <rdfs:label xml:lang="iri-based">objectProperty5</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#a-loc:atSite -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologia_elena#a-loc:atSite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologia_elena#TimeIndexedTypedLocation2"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologia_elena#cis:Site"/>
+        <rdfs:label xml:lang="en">a-loc:atSite</rdfs:label>
+        <rdfs:label xml:lang="iri-based">a-loc:atSite</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#a-loc:hasCulturalInstituteOrSite -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologia_elena#a-loc:hasCulturalInstituteOrSite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologia_elena#TimeIndexedTypedLocation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologia_elena#CulturalInstituteOrSite"/>
+        <rdfs:label xml:lang="en">a-loc:hasCulturalInstituteOrSite</rdfs:label>
+        <rdfs:label xml:lang="iri-based">a-loc:hasCulturalInstituteOrSite</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#a-loc:hasTimeIndexedTypedLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologia_elena#a-loc:hasTimeIndexedTypedLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologia_elena#Elena"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologia_elena#TimeIndexedTypedLocation"/>
+        <rdfs:label xml:lang="en">a-loc:hasTimeIndexedTypedLocation</rdfs:label>
+        <rdfs:label xml:lang="iri-based">a-loc:hasTimeIndexedTypedLocation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Ada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Ada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Ada</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Antonella -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Antonella">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Antonella</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Attilio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Attilio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Attilio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Carlo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Carlo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Carlo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Carola -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Carola">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Carola</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Caterina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Caterina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Caterina</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Chiara -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Chiara">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Chiara</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Coco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Coco">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Coco</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Cristiana -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Cristiana">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Cristiana</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Cristina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Cristina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Cristina</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#CulturalInstituteOrSite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#CulturalInstituteOrSite">
+        <rdfs:label xml:lang="en">Ferrovie dello Stato</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#CulturalInstituteOrSite2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#CulturalInstituteOrSite2">
+        <rdfs:label xml:lang="en">ICCD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#CulturalInstituteOrSite3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#CulturalInstituteOrSite3">
+        <rdfs:label xml:lang="en">MAECI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Daniela -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Daniela">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Daniela</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Elena -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Elena">
+        <rdfs:label xml:lang="iri-based">Elena</rdfs:label>
+        <rdfs:label xml:lang="en">arco:Demoethno AntropologicalHeritage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Elena_img -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Elena_img">
+        <rdfs:label xml:lang="en">https://raw.githubusercontent.com/fabriziomagnani/ElenaOn/4d2ba8f974cdc08166ceef04bd85be6d1304c4d1/Elena_img.jpg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Fabiana -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Fabiana">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Fabiana</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Fabio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Fabio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Fabio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Fabiola -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Fabiola">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Fabiola</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Fabrizio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Fabrizio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Fabrizio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Fiorenza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Fiorenza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Fiorenza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Francesco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Francesco">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Francesco</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues">
+        <rdfs:label xml:lang="en">FriendsAndColleagues</rdfs:label>
+        <rdfs:label xml:lang="iri-based">FriendsAndColleagues</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Gabriella -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Gabriella">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Gabriella</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Gaia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Gaia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Gaia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Giovanni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Giovanni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Giovanni</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Ilenia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Ilenia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Ilenia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Isabella -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Isabella">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Isabella</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Iulia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Iulia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Iulia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Laura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Laura">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Laura</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Letizia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Letizia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Letizia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Mauro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Mauro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Mauro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Milena -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Milena">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Milena</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Nadia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Nadia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Nadia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Rachele -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Rachele">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Rachele</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Rodolfo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Rodolfo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Rodolfo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Silvia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Silvia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Silvia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#Simona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#Simona">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologia_elena#FriendsAndColleagues"/>
+        <rdfs:label xml:lang="en">Simona</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#TimeIndexedTypedLocation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#TimeIndexedTypedLocation">
+        <rdfs:label xml:lang="iri-based">TimeIndexedTypedLocation</rdfs:label>
+        <rdfs:label xml:lang="en">a-loc:TimeIndexedTypedLocation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#TimeIndexedTypedLocation2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#TimeIndexedTypedLocation2">
+        <rdfs:label xml:lang="en">TimeIndexedTypedLocation2</rdfs:label>
+        <rdfs:label xml:lang="iri-based">TimeIndexedTypedLocation2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#TimeIndexedTypedLocation3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#TimeIndexedTypedLocation3">
+        <rdfs:label xml:lang="iri-based">TimeIndexedTypedLocation3</rdfs:label>
+        <rdfs:label xml:lang="en">a-loc:TimeIndexedTypedLocation3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#TI:TimeInterval -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#TI:TimeInterval">
+        <rdfs:label xml:lang="en">2019-2024</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologia_elena#cis:Site -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologia_elena#cis:Site">
+        <rdfs:label xml:lang="en">San Michele a Ripa</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
