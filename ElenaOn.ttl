@@ -1,0 +1,250 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@prefix : 		<http://www.semanticweb.org/ontologia_elena#> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "New ontology"@en; 
+                                        dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 10 ###
+#  --------------------------- Property 0------------------------- 
+:a-loc:hasCulturalInstituteOrSite rdf:type owl:ObjectProperty ;
+                                  rdfs:label "a-loc:hasCulturalInstituteOrSite"@IRI-based; 
+                                  rdfs:label "a-loc:hasCulturalInstituteOrSite"@en; 
+                                  rdfs:domain :TimeIndexedTypedLocation;
+                                  rdfs:range :CulturalInstituteOrSite . 
+#  --------------------------- Property 1------------------------- 
+:a-loc:hasTimeIndexedTypedLocation rdf:type owl:ObjectProperty ;
+                                   rdfs:label "a-loc:hasTimeIndexedTypedLocation"@IRI-based; 
+                                   rdfs:label "a-loc:hasTimeIndexedTypedLocation"@en; 
+                                   rdfs:domain :Elena;
+                                   rdfs:range :TimeIndexedTypedLocation . 
+#  --------------------------- Property 2------------------------- 
+:Foaf rdf:type owl:ObjectProperty ;
+      rdfs:label "Foaf"@IRI-based; 
+      rdfs:label "Foaf"@en; 
+      rdfs:domain :FriendsAndColleagues;
+      rdfs:range :Elena . 
+#  --------------------------- Property 3------------------------- 
+:hasTimeIndexedTypedLocation2 rdf:type owl:ObjectProperty ;
+                              rdfs:label "hasTimeIndexedTypedLocation2"@IRI-based; 
+                              rdfs:label "a-loc:hasTimeIndexedTypedLocation2"@en; 
+                              rdfs:domain :Elena;
+                              rdfs:range :TimeIndexedTypedLocation2 . 
+#  --------------------------- Property 4------------------------- 
+:objectProperty5 rdf:type owl:ObjectProperty ;
+                 rdfs:label "objectProperty5"@IRI-based; 
+                 rdfs:label "newObjectProperty"@en; 
+                 rdfs:domain :Elena;
+                 rdfs:range :TimeIndexedTypedLocation3 . 
+#  --------------------------- Property 5------------------------- 
+:a-loc:atSite rdf:type owl:ObjectProperty ;
+              rdfs:label "a-loc:atSite"@IRI-based; 
+              rdfs:label "a-loc:atSite"@en; 
+              rdfs:domain :TimeIndexedTypedLocation2;
+              rdfs:range :cis:Site . 
+#  --------------------------- Property 6------------------------- 
+:hasTimeInterval rdf:type owl:ObjectProperty ;
+                 rdfs:label "hasTimeInterval"@IRI-based; 
+                 rdfs:label "hasTimeInterval"@en; 
+                 rdfs:domain :TimeIndexedTypedLocation2;
+                 rdfs:range :TI:TimeInterval . 
+#  --------------------------- Property 7------------------------- 
+:hasCulturalInstituteOrSite2 rdf:type owl:ObjectProperty ;
+                             rdfs:label "hasCulturalInstituteOrSite2"@IRI-based; 
+                             rdfs:label "a-loc:hasCulturalInstituteOrSite2"@en; 
+                             rdfs:domain :TimeIndexedTypedLocation2;
+                             rdfs:range :CulturalInstituteOrSite2 . 
+#  --------------------------- Property 8------------------------- 
+:hasCulturalInstituteOrSite3 rdf:type owl:ObjectProperty ;
+                             rdfs:label "hasCulturalInstituteOrSite3"@IRI-based; 
+                             rdfs:label "a-loc:hasCulturalInstituteOrSite3"@en; 
+                             rdfs:domain :TimeIndexedTypedLocation3;
+                             rdfs:range :CulturalInstituteOrSite3 . 
+#  --------------------------- Property 9------------------------- 
+:hasAttachedDocumentation rdf:type owl:ObjectProperty ;
+                          rdfs:label "hasAttachedDocumentation"@IRI-based; 
+                          rdfs:label "hasAttachedDocumentation"@en; 
+                          rdfs:domain :Elena;
+                          rdfs:range :Elena_img . 
+###  Class Definitions (Number of Classes) 43 ###
+#  --------------------------- Class  0------------------------- 
+:Elena_img rdf:type owl:Class; 
+           rdfs:label "https://raw.githubusercontent.com/fabriziomagnani/ElenaOn/4d2ba8f974cdc08166ceef04bd85be6d1304c4d1/Elena_img.jpg"@en . 
+#  --------------------------- Class  1------------------------- 
+:cis:Site rdf:type owl:Class; 
+          rdfs:label "San Michele a Ripa"@en . 
+#  --------------------------- Class  2------------------------- 
+:FriendsAndColleagues rdf:type owl:Class; 
+                      rdfs:label "FriendsAndColleagues"@IRI-based; 
+                      rdfs:label "FriendsAndColleagues"@en . 
+#  --------------------------- Class  3------------------------- 
+:TimeIndexedTypedLocation rdf:type owl:Class; 
+                          rdfs:label "TimeIndexedTypedLocation"@IRI-based; 
+                          rdfs:label "a-loc:TimeIndexedTypedLocation"@en . 
+#  --------------------------- Class  4------------------------- 
+:Elena rdf:type owl:Class; 
+       rdfs:label "Elena"@IRI-based; 
+       rdfs:label "arco:Demoethno AntropologicalHeritage"@en . 
+#  --------------------------- Class  5------------------------- 
+:CulturalInstituteOrSite2 rdf:type owl:Class; 
+                          rdfs:label "ICCD"@en . 
+#  --------------------------- Class  6------------------------- 
+:TimeIndexedTypedLocation2 rdf:type owl:Class; 
+                           rdfs:label "TimeIndexedTypedLocation2"@IRI-based; 
+                           rdfs:label "TimeIndexedTypedLocation2"@en . 
+#  --------------------------- Class  7------------------------- 
+:CulturalInstituteOrSite3 rdf:type owl:Class; 
+                          rdfs:label "MAECI"@en . 
+#  --------------------------- Class  8------------------------- 
+:TimeIndexedTypedLocation3 rdf:type owl:Class; 
+                           rdfs:label "TimeIndexedTypedLocation3"@IRI-based; 
+                           rdfs:label "a-loc:TimeIndexedTypedLocation3"@en . 
+#  --------------------------- Class  9------------------------- 
+:CulturalInstituteOrSite rdf:type owl:Class; 
+                         rdfs:label "Ferrovie dello Stato"@en . 
+#  --------------------------- Class  10------------------------- 
+:TI:TimeInterval rdf:type owl:Class; 
+                 rdfs:label "2019-2024"@en . 
+#  --------------------------- Class  11------------------------- 
+:Fabrizio rdf:type owl:Class; 
+          rdfs:subClassOf :FriendsAndColleagues ;
+          rdfs:label "Fabrizio"@en . 
+#  --------------------------- Class  12------------------------- 
+:Rachele rdf:type owl:Class; 
+         rdfs:subClassOf :FriendsAndColleagues ;
+         rdfs:label "Rachele"@en . 
+#  --------------------------- Class  13------------------------- 
+:Caterina rdf:type owl:Class; 
+          rdfs:subClassOf :FriendsAndColleagues ;
+          rdfs:label "Caterina"@en . 
+#  --------------------------- Class  14------------------------- 
+:Cristiana rdf:type owl:Class; 
+           rdfs:subClassOf :FriendsAndColleagues ;
+           rdfs:label "Cristiana"@en . 
+#  --------------------------- Class  15------------------------- 
+:Cristina rdf:type owl:Class; 
+          rdfs:subClassOf :FriendsAndColleagues ;
+          rdfs:label "Cristina"@en . 
+#  --------------------------- Class  16------------------------- 
+:Antonella rdf:type owl:Class; 
+           rdfs:subClassOf :FriendsAndColleagues ;
+           rdfs:label "Antonella"@en . 
+#  --------------------------- Class  17------------------------- 
+:Fiorenza rdf:type owl:Class; 
+          rdfs:subClassOf :FriendsAndColleagues ;
+          rdfs:label "Fiorenza"@en . 
+#  --------------------------- Class  18------------------------- 
+:Fabio rdf:type owl:Class; 
+       rdfs:subClassOf :FriendsAndColleagues ;
+       rdfs:label "Fabio"@en . 
+#  --------------------------- Class  19------------------------- 
+:Ilenia rdf:type owl:Class; 
+        rdfs:subClassOf :FriendsAndColleagues ;
+        rdfs:label "Ilenia"@en . 
+#  --------------------------- Class  20------------------------- 
+:Milena rdf:type owl:Class; 
+        rdfs:subClassOf :FriendsAndColleagues ;
+        rdfs:label "Milena"@en . 
+#  --------------------------- Class  21------------------------- 
+:Nadia rdf:type owl:Class; 
+       rdfs:subClassOf :FriendsAndColleagues ;
+       rdfs:label "Nadia"@en . 
+#  --------------------------- Class  22------------------------- 
+:Letizia rdf:type owl:Class; 
+         rdfs:subClassOf :FriendsAndColleagues ;
+         rdfs:label "Letizia"@en . 
+#  --------------------------- Class  23------------------------- 
+:Fabiana rdf:type owl:Class; 
+         rdfs:subClassOf :FriendsAndColleagues ;
+         rdfs:label "Fabiana"@en . 
+#  --------------------------- Class  24------------------------- 
+:Fabiola rdf:type owl:Class; 
+         rdfs:subClassOf :FriendsAndColleagues ;
+         rdfs:label "Fabiola"@en . 
+#  --------------------------- Class  25------------------------- 
+:Laura rdf:type owl:Class; 
+       rdfs:subClassOf :FriendsAndColleagues ;
+       rdfs:label "Laura"@en . 
+#  --------------------------- Class  26------------------------- 
+:Isabella rdf:type owl:Class; 
+          rdfs:subClassOf :FriendsAndColleagues ;
+          rdfs:label "Isabella"@en . 
+#  --------------------------- Class  27------------------------- 
+:Attilio rdf:type owl:Class; 
+         rdfs:subClassOf :FriendsAndColleagues ;
+         rdfs:label "Attilio"@en . 
+#  --------------------------- Class  28------------------------- 
+:Iulia rdf:type owl:Class; 
+       rdfs:subClassOf :FriendsAndColleagues ;
+       rdfs:label "Iulia"@en . 
+#  --------------------------- Class  29------------------------- 
+:Francesco rdf:type owl:Class; 
+           rdfs:subClassOf :FriendsAndColleagues ;
+           rdfs:label "Francesco"@en . 
+#  --------------------------- Class  30------------------------- 
+:Giovanni rdf:type owl:Class; 
+          rdfs:subClassOf :FriendsAndColleagues ;
+          rdfs:label "Giovanni"@en . 
+#  --------------------------- Class  31------------------------- 
+:Rodolfo rdf:type owl:Class; 
+         rdfs:subClassOf :FriendsAndColleagues ;
+         rdfs:label "Rodolfo"@en . 
+#  --------------------------- Class  32------------------------- 
+:Simona rdf:type owl:Class; 
+        rdfs:subClassOf :FriendsAndColleagues ;
+        rdfs:label "Simona"@en . 
+#  --------------------------- Class  33------------------------- 
+:Carola rdf:type owl:Class; 
+        rdfs:subClassOf :FriendsAndColleagues ;
+        rdfs:label "Carola"@en . 
+#  --------------------------- Class  34------------------------- 
+:Silvia rdf:type owl:Class; 
+        rdfs:subClassOf :FriendsAndColleagues ;
+        rdfs:label "Silvia"@en . 
+#  --------------------------- Class  35------------------------- 
+:Daniela rdf:type owl:Class; 
+         rdfs:subClassOf :FriendsAndColleagues ;
+         rdfs:label "Daniela"@en . 
+#  --------------------------- Class  36------------------------- 
+:Gabriella rdf:type owl:Class; 
+           rdfs:subClassOf :FriendsAndColleagues ;
+           rdfs:label "Gabriella"@en . 
+#  --------------------------- Class  37------------------------- 
+:Gaia rdf:type owl:Class; 
+      rdfs:subClassOf :FriendsAndColleagues ;
+      rdfs:label "Gaia"@en . 
+#  --------------------------- Class  38------------------------- 
+:Ada rdf:type owl:Class; 
+     rdfs:subClassOf :FriendsAndColleagues ;
+     rdfs:label "Ada"@en . 
+#  --------------------------- Class  39------------------------- 
+:Coco rdf:type owl:Class; 
+      rdfs:subClassOf :FriendsAndColleagues ;
+      rdfs:label "Coco"@en . 
+#  --------------------------- Class  40------------------------- 
+:Mauro rdf:type owl:Class; 
+       rdfs:subClassOf :FriendsAndColleagues ;
+       rdfs:label "Mauro"@en . 
+#  --------------------------- Class  41------------------------- 
+:Carlo rdf:type owl:Class; 
+       rdfs:subClassOf :FriendsAndColleagues ;
+       rdfs:label "Carlo"@en . 
+#  --------------------------- Class  42------------------------- 
+:Chiara rdf:type owl:Class; 
+        rdfs:subClassOf :FriendsAndColleagues ;
+        rdfs:label "Chiara"@en . 
